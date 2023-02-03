@@ -34,6 +34,7 @@ const quotesArr=[
 let quoteIndex=randomNumber()
 
 btn.addEventListener('click',(e)=>{
+    console.log('jndjdjdkkdjdjdjdj')
      showQuotes(quoteIndex)
 })
 
@@ -57,11 +58,6 @@ right.addEventListener('click',()=>{
 let left=document.querySelector('.left')
 left.addEventListener('click',()=>{
     quoteIndex--
-    // if(quoteIndex.length<0){
-    //     quoteIndex=0
-    // }else{
-    //     quoteIndex++
-    // }
   showQuotes(quoteIndex)
 })
 function randomNumber(){

@@ -79,7 +79,7 @@ button{
 }
 @media(max-width:789px) {
     .container{
-        width:400px;
+        width: 350px;;
     }
     .fa-chevron-right{
         position:absolute;
